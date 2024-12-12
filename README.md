@@ -1,21 +1,14 @@
 Steps to set up a project:
 
 1. Make sure you have already intsalled nodeJS, mongoDB.
-2. Create a new folder.
-3. Open this folder in cmd -> CTRL+R-> cmd : cd /pathtofolder.
-4. Now to creat a project in this folder use this command: npm init --yes: select yes and a package json file will be created in that folder.
-5. Now create a new file "index.js" in that folder, this is our main file.
-6. Make sure you have already installed required pakckages i.e express, joi, mongoose, bcryptjs, jsonwebtoken, dotenv, nodemon
-7. If not use this command to install these packages as they are must required: npm i express joi mongoose bcryptjs jsonwebtoken dotenv nodemon
-8. Create a .env file to store website secrets i.e database url, secret key i.e jwtPrivateKey: yoursecretvalue etc
-9. Connect to server and monodb in main file.
-10. Create 3 new folders inside main folder: models, routes, middleware.
-11. Models should contain all the models of your project.
-12. Coding logic should be in routes.
-13. In middleware store logic for jwt validation, admin access etc.
-14. After creating all this in cmd run this command: node index.js or nodemon index.js to run the project
-15. Project will run successfully if you have not make an mistake.
-16. If any error occur, it will be logged on cmd, fix it first to start project i.e connection to database filed, check .env file, check database uri.
+2. Open this folder in cmd -> CTRL+R-> cmd : cd /pathtofolder.
+3. Now installed the required dependencies by using command in cmd: npm install
+4. Create a .env file to store website secrets i.e database url, secret key i.e jwtPrivateKey: yoursecretvalue etc
+5. Set your mongodb uri in this variable: MONGO_URI: youruri
+6. Set your web app private key in this variable: jwtPrivateKey: yoursecretkeyhere
+7. Now in cmd run one of this command to run the project: node index.js or nodemon index.js
+8. Project will run successfully if you have not make an mistake.
+9. If any error occur, it will be logged on cmd, fix it first to start project i.e connection to database filed, check .env file, check database uri.
 
 
 
