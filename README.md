@@ -11,7 +11,6 @@ Steps to set up a project:
 9. If any error occur, it will be logged on cmd, fix it first to start project i.e connection to database filed, check .env file, check database uri.
 
 
-
 Testing:
 
 1. Make sure you have installed a testing package or software i.e postman
@@ -23,8 +22,7 @@ Testing:
     "email": "abc@gmail.com",
     "password": "12345"
 }
-6. If there is not errors in your code, it will run and a status: 200 will be shown other wise check in terminal for error to fix
- 
+6. If there is not errors in your code, it will run and a status: 200 will be shown other wise check in terminal for error to fix 
 
 
 Example requests and responses for all endpoints.
